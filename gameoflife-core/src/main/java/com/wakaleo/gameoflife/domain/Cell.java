@@ -6,12 +6,19 @@ public enum Cell {
     private String symbol;
 
     private Cell(final String initialSymbol) {
+        
         this.symbol = initialSymbol;
     }
 
     @Override
     public String toString() {
+        if(symbol == "+" || symbol == ""){
         return symbol;
+        }
+        else 
+        {
+            return null;
+        }
     }
 
     static Cell fromSymbol(final String symbol) {
