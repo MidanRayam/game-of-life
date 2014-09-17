@@ -11,7 +11,7 @@ public enum Cell {
 
     @Override
     public String toString() {
-        return (int)symbol;
+        return symbol;
     }
 
     static Cell fromSymbol(final String symbol) {
