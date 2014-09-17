@@ -9,7 +9,7 @@ public enum Cell {
 
     private Cell(final String initialSymbol) {
         
-        if(test1.equals(test2){
+        if(test1.equals(test2)){
             return "Bug";
             }
         this.symbol = initialSymbol;
