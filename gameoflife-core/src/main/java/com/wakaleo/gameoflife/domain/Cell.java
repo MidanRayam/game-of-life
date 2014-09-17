@@ -12,13 +12,7 @@ public enum Cell {
 
     @Override
     public String toString() {
-        if(symbol == "*" || symbol == "."){
         return symbol;
-        }
-        else 
-        {
-            return null;
-        }
     }
 
     static Cell fromSymbol(final String symbol) {
