@@ -12,7 +12,7 @@ public enum Cell {
 
     @Override
     public String toString() {
-        if(symbol == "+" || symbol == ""){
+        if(symbol == "+" || symbol == "."){
         return symbol;
         }
         else 
