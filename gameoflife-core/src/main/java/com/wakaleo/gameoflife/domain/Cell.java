@@ -5,7 +5,7 @@ public enum Cell {
 
     private String symbol;
 
-    private Cell(final object initialSymbol) {
+    private Cell(final Object initialSymbol) {
         
         this.symbol = initialSymbol;
     }
