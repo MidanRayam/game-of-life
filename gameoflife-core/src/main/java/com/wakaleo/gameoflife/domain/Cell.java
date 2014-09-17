@@ -5,9 +5,9 @@ public enum Cell {
 
     private String symbol;
 
-    private Cell(final Object initialSymbol) {
+    private Cell(final String initialSymbol) {
         
-        this.symbol = (String)initialSymbol;
+        this.symbol = initialSymbol;
     }
 
     @Override
