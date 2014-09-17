@@ -5,14 +5,14 @@ public enum Cell {
 
     private String symbol;
 
-    private Cell(final String initialSymbol) {
+    private Cell(final object initialSymbol) {
         
         this.symbol = initialSymbol;
     }
 
     @Override
     public String toString() {
-        return (Object)symbol;
+        return symbol;
     }
 
     static Cell fromSymbol(final String symbol) {
